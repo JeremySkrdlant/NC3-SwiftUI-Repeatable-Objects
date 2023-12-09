@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Objectives</key>
+	<array>
+		<string>Review objects with properties</string>
+		<string>Review implementing a protocol</string>
+		<string>Review String interpolation</string>
+		<string>Review SwiftUI Modifiers</string>
+		<string>Review Ternary Operator </string>
+		<string>Review SwiftUI Components </string>
+		<string>Introduce SwiftUI List</string>
+		<string>Introduce SwiftUI  ForEach</string>
+		<string>Introduce Custom Color Assets</string>
+	</array>
+	<key>Detailed Lesson Order</key>
+	<array>
+		<string>Come up with a topic, we used online program but you can use any topic with your class.  It is funner if they choose the topic at the beginning of the day.</string>
+		<string>Discusss what an app could do for that topic.  What features would be good.  Mentimeter is good for this. </string>
+		<string>Discuss which data objects you would need to build that feature</string>
+		<string>Focus on one object that will most likely be in the form of an array when you get its data. Build up a list of properties. </string>
+		<string>Have the students go around choosing the top 3 to 5 properties. </string>
+		<string>Make sure every student know the name of the struct and all the properties that were decided. This can be UML. </string>
+		<string>Have the students create the Student swift file and have them build their struct from the UML. (Your file name will match what you decided to build)</string>
+		<string>Have the students create one instance of the Object. </string>
+		<string>Build an array of Mock data. (You can use AI to bring focus back on the bigger picture.  If they struggle making instances, it might be better to have them build a smaller array but have them do the creating themselves.)</string>
+		<string>Have the students create the Student Row View file and show them how to add one student variable at the top and grab one student from the mockup for the Preview</string>
+		<string>Show the students how to pass the name in from the student variable into a Text element</string>
+		<string>Add the text to an HStack </string>
+		<string>Test the student on string interpolation by having them add the count of the missing assignments. </string>
+		<string>Review Ternery operators, Change the foregroud Style to red if the count is greater than 0 </string>
+		<string>Add a spacer and some modifiers </string>
+		<string>Create the Student Detail View </string>
+		<string>Test the students on creating the variable and pass it in through the preview. </string>
+		<string>Create the VStack and have them add the First Name and Learning style labels and a header that says &quot;Missed Assignments.&quot; </string>
+		<string>Surround the name with a ZStack, find an image off Pexels or some other free image source.  Put that behind the text and make it look nice. </string>
+		<string>Add a divider below the learning style, add an emoji before it to represent learning style </string>
+		<string>Create a ForEach going through the students interests.  </string>
+		<string>Quiz the students on the second forEach for the missed assignments. </string>
+		<string>Create the List in the ContentView from the Mock Data </string>
+		<string>Convert the Student Class to identifiable to make the List Creation Easier </string>
+		<string>Add a Navigation Link to each student Row to go to that students detail view </string>
+		<string>Note the light opacity and the navigation doesn&apos;t work, Add a Navigation View to fix it. </string>
+		<string>Verify all the code works, Get ideas from the students on how to make it better. </string>
+	</array>
+	<key>General Lesson Order</key>
+	<array>
+		<string>Start the Lesson by Introducing a topic, Spend time on the design phase where you are figuring out the Structure of the data</string>
+		<string>Build the structure in code with a struct</string>
+		<string>Build a row and a detail view that use data from your struct </string>
+		<string>Build the list in the constructor that goes from a row to a detail</string>
+		<string>Give challenges throughout to improve their use of modifiers, protocols, and Closures</string>
+	</array>
+</dict>
+</plist>
